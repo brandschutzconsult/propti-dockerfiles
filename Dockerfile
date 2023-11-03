@@ -1,5 +1,5 @@
 # FDS base image
-FROM openbcl/fds:6.7.9
+FROM openbcl/fds:6.8.0
 
 # install app dependencies
 RUN apt-get update && apt-get install -y git libmpich-dev python3-pip python3.10-venv
